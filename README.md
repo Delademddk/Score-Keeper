@@ -1,0 +1,1 @@
+Score Keeper is a simple and clean web based application for managing multiple players and tracking their scores. It allows you to add players, edit names, update points, clear values, shuffle player positions and reset all scores easily
