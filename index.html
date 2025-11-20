@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Score Keeper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app">
+    <header>
+    </header>
+      <div class="title">
+        <h1>Score Keeper</h1>
+        <p class="lead">Click a name to edit it. Press Enter to save.</p>
+      </div>
+
+      <div class="controls">
+        <button id="add-btn" class="btn danger">Add Player</button>
+        <button id="sort-btn" class="btn sort">Sort Players</button>
+      </div>
+    
+
+    <div class="timer">
+      <div class="time" id="timer-display">00:00</div>
+      <button id="timer-toggle">Start</button>
+      <button id="timer-reset">Reset</button>
+    </div>
+ 
+    <main class="score-board" id="score-board"></main>
+
+      <div class="controls bottom">
+        <button id="shuffle-btn" class="btn secondary">Shuffle</button>
+        <button id="reset-btn" class="btn danger">Reset Scores</button>
+      </div>
+
+    <div class="bottom-actions">
+      <div class="hint">Tip: Press Sort Players in the header to arrange players by position.</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!--@DELA-->
